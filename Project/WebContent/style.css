@@ -1,0 +1,59 @@
+.head{
+border-style: solid;
+border-width: thin;
+border-color: #000000;
+text-align: right;
+color: #ffffff;
+background-color: #808080;
+font-weight: 600;
+}
+.login{
+	text-align: center;
+}
+.login2{
+	text-align: right;
+}
+.user{
+	text-align: right;
+	text-decoration: underline;
+	color: #800000;
+	margin-top: 10px;
+}
+.user2{
+	text-align: right;
+	text-decoration: underline;
+	color: #0000FF;
+}
+.user3{
+	text-align: left;
+	font-weight: bold;
+	margin-top: 9px;
+}
+.user4{
+	text-align: left;
+	text-decoration: underline;
+	color: #0000FF;
+}
+.user5{
+	text-align: left;
+	margin-top: 9px;
+}
+.color{
+	background: linear-gradient(#FFF,silver);
+}
+.justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-area{
+	padding-left: 15px !important;
+	padding-right: 50px !important;
+}
+.input-area2{
+	padding-left: 10px !important;
+	text-align: center;
+}
+.big{
+	font-weight: bold;
+}

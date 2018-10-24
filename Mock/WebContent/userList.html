@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<title>ユーザー覧</title>
+</head>
+<body>
+<p class="head">
+ユーザー名さん　　　　<a class="user" href="login.html">ログアウト</a><label>　</label></p>
+<br/>
+<h1 class="login font-italic big">ユーザー覧</h1><br/>
+<p class="user2" href="style.css"><a href="userSignUp.html">新規登録</a><label>　　</label></p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <label class="user3">ログインID</label>
+    </div>
+    <div class="col-5">
+    <input type="text" class="form-control" id="exampleFormControlInput1"><br/>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <label class="user3">ユーザー名</label>
+    </div>
+    <div class="col-5">
+      <input type="text" class="form-control" id="exampleFormControlInput1"><br/>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <label class="user3">生年月日</label>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col-2">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="年/月/日">
+    </div>
+    <div class="col-1">
+    <label style="margin: 9px">〜</label>
+    </div>
+    <div class="col-2">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="年/月/日">
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  </div>
+<p style="text-align: right"><input type="submit" value="　　　検索　　　"><label>　　</label></p>
+<hr>
+<table border="1" style="width:400" class="container-fluid">
+<tr class="color">
+<th class="login">ログインID</th><th class="login">ユーザー名</th><th class="login">生年月日</th><th>　　　　　　　　　　　　　　　　　　　　　　</th>
+</tr>
+<tr><td>id0001</td><td>田中太郎</td><td>1996年04月26日</td>
+<td>
+<div class="justify">
+
+<form action="userInfoReference.html" method="post">
+	<span>　<button type="submit" class="btn btn-primary">　詳細　</button></span>
+</form>
+
+<form action="userInfoUpdate.html" method="post">
+	<span><button type="submit" class="btn btn-success">　更新　</button></span>
+</form>
+
+<form action="userDeleteConfirm.html" method="post">
+	<span><button type="submit" class="btn btn-danger">　削除　</button>　　</span>
+</form>
+
+</div>
+</td></tr>
+<tr><td>id0002</td><td>佐藤二郎</td><td>2001年11月12日</td><td>
+<div class="justify">
+	<form action="userInfoReference.html" method="post">
+	<span>　<button type="submit" class="btn btn-primary">　詳細　</button></span>
+</form>
+
+<form action="userInfoUpdate.html" method="post">
+	<span><button type="submit" class="btn btn-success">　更新　</button></span>
+</form>
+
+<form action="userDeleteConfirm.html" method="post">
+	<span><button type="submit" class="btn btn-danger">　削除　</button>　　</span>
+</form>
+</div>
+</td></tr>
+<tr><td>id0003</td><td>佐川真司</td><td>2000年01月01日</td><td>
+<div class="justify">
+	<form action="userInfoReference.html" method="post">
+	<span>　<button type="submit" class="btn btn-primary">　詳細　</button></span>
+</form>
+
+<form action="userInfoUpdate.html" method="post">
+	<span><button type="submit" class="btn btn-success">　更新　</button></span>
+</form>
+
+<form action="userDeleteConfirm.html" method="post">
+	<span><button type="submit" class="btn btn-danger">　削除　</button>　　</span>
+</form>
+</div>
+</td></tr>
+</table>
+<br/>
+</body>
+</html>
